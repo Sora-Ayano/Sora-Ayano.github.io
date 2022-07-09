@@ -1,0 +1,89 @@
+/*base*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/bg/bg-sakura.png);
+    font-family: Lato,Noto Sans KR,Noto Sans JP,-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Segoe UI,Sans-Serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+  
+ul li {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+    color: rgb(100, 92, 212);
+}
+
+div{
+    display: block;
+}
+
+#root{
+    display: block;
+    margin: 0 auto;
+}
+
+/*header*/
+/* .logo-link{
+    width: auto;
+    height: 100px;
+}
+
+.text{
+    margin-left: 10px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+} */
+
+.logo-text{
+    display: block;
+    color: rgb(244, 184, 184);
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*table*/
+.anime-img1 {
+    width: 140px;
+    height: 180px;
+}
+
+.anime-info{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.0em;
+    margin-top: 0px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 14.5px;
+}
+
+tbody{
+    color: #000;
+}
+
+/*link*/
+.footer-title{
+    color: #000;
+}
+
+/*footer*/
+#footer{
+    top: 20;
+    flex-shrink: 0;
+}
+
+.footer-container {
+    margin: auto;
+}
+  
+.footer-title {
+    padding: 0px 30px;
+}

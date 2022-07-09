@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <title>~空喵屋~</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="keywords" content="动漫 生肉 熟肉 磁力链接 分享">
+    <meta name="description" content="一个测试网站">
+    <link rel="icon" type="image/x-icon" href="core/image/author/web-img.png">
+    <link type="text/css" rel="stylesheet" href="core/css/main.css">
+    <script type="text/javascript" src="core/js/main.js"></script>
+</head>
+<body>
+    <div id="root">
+        <div id="main">
+            <div class="header">
+                <div class="header-containter">
+                    <!-- <div class="logo">
+                        <a class="logo-link" href="index.html">
+                            <img  src="https://i1.hdslb.com/bfs/face/91af308b1364d76d74bbbcb1bdec8f7a35003f5e.jpg@150w_150h.jpg" alt="香风智乃官方认证老公" class="logo-img" width="50px" height="50px">
+                        </a>
+                        <span class="text">时间表</span>
+                    </div> -->
+                    <div class="logo-text">时间表</div>
+                </div>
+                <div class="today">
+                    <h3>
+                        <label id="time" style="color: rgb(244, 184, 184);"></label>
+                    </h3>
+                    <a href="" style="color: rgb(0, 0, 0);">查看今日即将播放的动漫
+                        <script>
+                        if (weekText=="一"){
+                            window.location.hash = "#date1";
+                        }
+                        else if (weekText=="二"){
+                            window.location.hash = "#date2";
+                        }
+                        else if (weekText=="三"){
+                            window.location.hash = "#date3";
+                        }
+                        else if (weekText=="四"){
+                            window.location.hash = "#date4";
+                        }
+                        else if (weekText=="五"){
+                            window.location.hash = "#date5";
+                        }
+                        else if (weekText=="六"){
+                            window.location.hash = "#date6";
+                        }
+                        else if (weekText=="七"){
+                            window.location.hash = "#date7";
+                        }
+                        </script> 
+                    </a>
+                    <a href="" style="color: rgb(0, 0, 0); padding-left: 20px;">查看云盘链接
+                        <script>
+                            window.location.hash = "#anime-link";
+                        </script>
+                    </a>
+                    <script>
+                        function getTime(){
+                            var date = new Date();
+                            var localTime = date.toLocaleTimeString();
+                            var localDate = date.toLocaleDateString();
+                            var week = date.getDay();
+                            var weekText = new Array("日", "一", "二", "三", "四", "五", "六");
+                            var weekStr = "星期"+ weekText[week];
+                            document.getElementById("time").innerHTML = "当前时间为："+localDate+"&nbsp"+localTime+"&nbsp"+weekStr;
+                        }
+                        setInterval(function(){
+                            getTime()
+                        },0);
+                        
+                    </script>
+                </div>
+            </div>
+            <table>
+                <!-- <thead>
+                    表头
+                    <tr>
+                        <th class="th-header" style="background-color: rgb(221, 221, 221); left: 0px; padding: 16px; position: sticky;">
+                            <div class="table-top1">时间</div>
+                        </th>
+                        <th class="table-top2">
+                            <div class="table-top2">动漫</div>
+                        </th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr style="border-top: 1px solid rgba(0, 0, 0, 0.3);">
+                        <td style="background-color: rgb(221, 221, 221); left: 0px; padding: 16px; position: sticky;">
+                            <div id="date1">周一</div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/mon1.jpg"></img>
+                                </div>
+                                <div class="anime-title">欢迎来到实力至上主义的教室 第2期</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="border-top: 1px solid rgba(0, 0, 0, 0.3);">
+                        <td style="background-color: rgb(221, 221, 221); left: 0px; padding: 16px; position: sticky;">
+                            <div id="date2">周二</div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/tue1.jpg"></img>
+                                </div>
+                                <div class="anime-title">闪耀路标</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="border-top: 1px solid rgba(0, 0, 0, 0.3);">
+                        <td style="background-color: rgb(221, 221, 221); left: 0px; padding: 16px; position: sticky;">
+                            <div id="date3">周三</div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/wen1.jpg"></img>
+                                </div>
+                                <div class="anime-title">邪神与厨二病少女 第3期</div>
+                            </div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/wen2.jpg"></img>
+                                </div>
+                                <div class="anime-title">继母的拖油瓶是我的前女友</div>
+                            </div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/wen3.jpg"></img>
+                                </div>
+                                <div class="anime-title">绽放的阿尔斯诺特利亚</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="border-top: 1px solid rgba(0, 0, 0, 0.3);">
+                        <td style="background-color: rgb(221, 221, 221); left: 0px; padding: 16px; position: sticky;">
+                            <div id="date4">周四</div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/thu1.jpg"></img>
+                                </div>
+                                <div class="anime-title">即使如此依旧步步进逼</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="border-top: 1px solid rgba(0, 0, 0, 0.3);">
+                        <td style="background-color: rgb(221, 221, 221); left: 0px; padding: 16px; position: sticky;">
+                            <div id="date5">周五</div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/fri1.jpg"></img>
+                                </div>
+                                <div class="anime-title">影宅 第2期</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="border-top: 1px solid rgba(0, 0, 0, 0.3);">
+                        <td style="background-color: rgb(221, 221, 221); left: 0px; padding: 16px; position: sticky;">
+                            <div id="date6">周六</div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/sat1.jpg"></img>
+                                </div>
+                                <div class="anime-title">契约之吻</div>
+                            </div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/sat2.jpg"></img>
+                                </div>
+                                <div class="anime-title">Lycoris Recoil</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="border-top: 1px solid rgba(0, 0, 0, 0.3);">
+                        <td style="background-color: rgb(221, 221, 221); left: 0px; padding: 16px; position: sticky;">
+                            <div id="date7">周日</div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/sun1.jpg"></img>
+                                </div>
+                                <div class="anime-title">天籁人偶</div>
+                            </div>
+                        </td>
+                        <td style="padding: 16px;">
+                            <div class="anime-info">
+                                <div class="anime-img">
+                                    <img class="anime-img1" src="core/image/anime-image/sun2.jpg"></img>
+                                </div>
+                                <div class="anime-title">LoveLive!SuperStar!! 第2期</div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="anime-link">
+                <div class="link-title">
+                    <h3 class="footer-title">文件链接：</h3>
+                </div>
+                <div class="link-container">
+                    <ul class="ul-footer">
+                        <li class="li-baiduyun">
+                            <a class="footer-contribution" href="https://pan.baidu.com/s/1eZ6Wq1YkrI0fsA8MHIefwg?pwd=aysk" title="bilibili" target="blank">百度网盘 提取码: aysk</a>
+                        </li>
+                        <li class="li-aliyun">
+                            <a class="footer-contribution" href="https://www.aliyundrive.com/s/Df8EcGkhs6T" title="GitHub" target="blank">阿里云盘 提取码: 7ys8</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer id="footer">
+    <div class="footer-container">
+        <div class="web-contribution">
+            <h3 class="footer-title">问题反馈：</h3>
+        </div>
+        <div class="author-contribution">
+            <ul class="ul-footer">
+                <li class="li-bilibili">
+                    <a class="footer-contribution" href="https://space.bilibili.com/31484761" title="bilibili" target="blank">香风智乃官方认证老公</a>
+                </li>
+                <li class="li-github">
+                    <a class="footer-contribution" href="https://github.com/Sora-Ayano" title="GitHub" target="blank">GitHub</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
